@@ -1,5 +1,11 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
+
 body {
-    background: url('img/bg-desktop.webp');
+    background: url("img/bg-desktop.webp");
     font-family: Bai Jamjuree;
 }
 
@@ -21,6 +27,7 @@ body {
     background-color: var(--card-front-color);
 }
 
+
 .cartao__conteudo h3 {
     color: var(--text-color);
     border: 1px solid var(--text-color);
@@ -32,7 +39,8 @@ body {
     font-size: 1vw;
 }
 
-..cartao__conteudo__pergunta p{
+
+.cartao__conteudo__pergunta p{
     color: var(--text-color);
     font-weight: 500;
 }
@@ -41,11 +49,6 @@ body {
     color: var(--card-back-color);
     font-weight: 700;
 }
-
-
-
-
-
 
 
 
